@@ -3,7 +3,7 @@ set -e
 source /build/buildconfig
 set -x
 
-apt-get clean
+yum clean all
 rm -rf /build
 rm -rf /tmp/* /var/tmp/*
 

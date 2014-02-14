@@ -1,5 +1,5 @@
-FROM ubuntu:12.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM tianon/centos
+MAINTAINER Ingo Claro, miclaro@gmail.com
 
 ENV HOME /root
 RUN mkdir /build
