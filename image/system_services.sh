@@ -9,7 +9,7 @@ mkdir -p /etc/my_init.d
 
 ## Install runit.
 # rpm created from https://github.com/imeyer/runit-rpm
-rpm -ivh runit-2.1.1-6.el6.x86_64.rpm
+rpm -ivh /build/runit-2.1.1-6.el6.x86_64.rpm
 
 ## Install a syslog daemon.
 yum -y install syslog-ng
